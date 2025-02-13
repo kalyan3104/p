@@ -30,6 +30,6 @@ export const portfolioProjects: Project[] = [
     description: "My personal portfolio website showcasing projects and professional experience.",
     image: "/images/Gemini_Generated_Image_axaatsaxaatsaxaa.jpg",
     tags: ["React", "Next.js", "TypeScript", "Tailwind"],
-    link: "https://github.com/kalyan3104/My-portfolio",
+    link: "https://github.com/kalyan3104/p",
   },
 ]
