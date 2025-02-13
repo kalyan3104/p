@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { FileDown, Github, Linkedin, Globe, Mail, Phone } from "lucide-react"
+import { FileDown, Github, Linkedin, Globe, Mail, Phone } from 'lucide-react'
 
 export default function AboutPage() {
   return (
@@ -84,7 +84,7 @@ export default function AboutPage() {
       </section>
 
       <div className="mt-8">
-        <Link href="/api/download-resume" passHref legacyBehavior>
+        <Link href="/resume.pdf" passHref legacyBehavior>
           <a download="Medapalli_Kalyan_Resume.pdf">
             <Button>
               <FileDown className="mr-2 h-4 w-4" /> Download Full Resume
@@ -95,3 +95,4 @@ export default function AboutPage() {
     </div>
   )
 }
+
